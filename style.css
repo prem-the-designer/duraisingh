@@ -8,10 +8,10 @@ html{
 
 .main{
     display: flex;
-    /* width: 100%; */
+    width: 100%;
     flex-direction: column;
     object-fit:cover;
-    height:100vh;
+    height:auto;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -21,7 +21,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    width:40%;
+    width:35%;
     height:auto;
 
 }
@@ -36,10 +36,18 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Baskerville BT";
+    font-family: "courier new";
     font-size: 36px;
     color: #42628B;
 
+}
+.right-cloud{
+    content-visibility: hidden;
+    
+}
+.bottom-cloud{
+    content-visibility: hidden;
+    
 }
 
 /* .text{
@@ -59,13 +67,14 @@ img{
     z-index: -1;
     width:100%;
     height:auto;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .bottom-cloud{
     position:absolute;
     width: 100%;
     height: auto;
-    overflow: hidden;
+    overflow-x: hidden;
+    
 }
 }
 
