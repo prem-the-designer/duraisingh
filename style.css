@@ -57,13 +57,14 @@ img{
 .right-cloud{
     position:absolute;
     z-index: -1;
-    width:100vh;
+    width:100%;
     height:auto;
     overflow: hidden;
 }
 .bottom-cloud{
     position:absolute;
-    width: fit-content;
+    width: 100%;
+    height: auto;
     overflow: hidden;
 }
 }
