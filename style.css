@@ -42,7 +42,12 @@ img{
 
 }
 
-
+.right-cloud{
+    content-visibility: hidden;
+}
+.bottom-cloud{
+    content-visibility: hidden;
+}
 /* .text{
     background-color: blue;
     color:white;
