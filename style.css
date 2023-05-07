@@ -59,9 +59,12 @@ img{
     z-index: -1;
     width:100vh;
     height:auto;
+    overflow: hidden;
 }
 .bottom-cloud{
     position:absolute;
+    width: fit-content;
+    overflow: hidden;
 }
 }
 
